@@ -37,10 +37,10 @@ const Contact = () => {
   return (
     <div className="bg-slate-950 min-h-lvh pt-10 ">
       <div className="grid grid-cols-12 project">
-        <div className="lg:col-span-6 col-span-12">
+        <div className="lg:col-span-6 col-span-8 ">
           <img
             src={img}
-            className="w-102 lg:ml-16 ml-12 lg:h-[40%] h-[80%]"
+            className="w-102 lg:ml-16 ml-12 lg:h-[40%] sm:h-[80%]"
             alt=""
           />
         </div>
