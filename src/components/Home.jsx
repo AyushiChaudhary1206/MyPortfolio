@@ -23,7 +23,7 @@ export const Home=()=>{
                 </div>
                 <div className="mt-6">
                 <button class="bg-transparent hover:bg-teal-200 hover:text-black text-teal-200 font-semibold py-2 px-4 border border-teal-200 rounded scale-110 transition-all duration-300 hover:scale-100">
-                     <a href="https://drive.google.com/file/d/1YYZxUnjgkwO0s43QlXI-ZmH6HlFKTH0B" target='blank'>Resume</a>
+                     <a href="https://drive.google.com/file/d/1QYQay-XjVZ3QNq2NNCy9mQMunjfiBWlM/view?usp=drivesdk" target='blank'>Resume</a>
                      </button>
                 </div>
                 </div>

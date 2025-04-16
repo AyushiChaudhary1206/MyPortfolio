@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Routes,
 } from "react-router-dom";
@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
   
-    <BrowserRouter>
+    <HashRouter>
     <Navbar/>
     <ParticlesComponent/>
     <Routes>
@@ -28,7 +28,7 @@ function App() {
            <Route path="/work" element={<Projects />} />
           <Route path="/contact" element={<Contact/>} />  
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
     </div>
   )
