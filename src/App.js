@@ -1,4 +1,5 @@
 import {
+  BrowserRouter,
   HashRouter,
   Route,
   Routes,
@@ -18,7 +19,7 @@ function App() {
   return (
     <div>
   
-    <HashRouter>
+    <BrowserRouter>
     <Navbar/>
     <ParticlesComponent/>
     <Routes>
@@ -28,7 +29,7 @@ function App() {
            <Route path="/work" element={<Projects />} />
           <Route path="/contact" element={<Contact/>} />  
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
 
     </div>
   )
